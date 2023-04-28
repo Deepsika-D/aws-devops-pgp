@@ -16,6 +16,7 @@ db_conn = connections.Connection(
 )
 
 
+
 @app.route("/", methods=['GET', 'POST'])
 def hello_world():
     if request.method == 'POST':
